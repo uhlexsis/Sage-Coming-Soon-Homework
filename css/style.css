@@ -1,0 +1,284 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	background: #807c7e url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h1, h2, h3{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 120px;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+b.lead{
+	font-size: 26px;
+	line-height: 1.2;
+}
+
+header{
+	margin-bottom: 190px;
+}
+
+.logo{
+	float: left;
+}
+
+nav{	
+	float: right;
+}
+
+.menu{
+	position: relative;
+	z-index: 100;
+	width: 70px;
+	height: 70px;
+	background-color: #352d2f;
+    padding-top: 28px;
+}
+
+.icon_bar{
+	margin: 0 auto 3px;
+	display: block;
+	width: 24px;
+	height: 2px;
+	background-color: #fff;
+}
+
+.navigation{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(246, 60, 60, 0.9);
+}
+
+.navigation ul.mainmenu{
+	margin: 0 auto;
+}
+
+.navigation li{
+	display: inline-block;
+	margin-right: 50px;
+	vertical-align: top;
+}
+
+.navigation li a{
+	font-family: 'Teko', sans-serif;
+	font-size: 60px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navigation .submenu li{
+	display: block;
+}
+
+.navigation .submenu li a{
+	opacity: 0.7;
+	font-size: 24px;
+	font-weight: 300;	
+}
+
+main{
+	width: 690px;
+}
+
+main header{
+	margin-bottom: 30px;
+}
+
+p{
+	color: #c6c4c5;
+	line-height: 1.2;
+}
+
+.connected{
+	margin-top: 58px;
+}
+
+.connected h2 {
+    margin-bottom: 37px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.connected p{
+	margin-bottom: 40px;
+	color: #bebdbe;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+input{
+	height: 50px;
+	width: 350px;
+	margin-bottom: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	font-color: 747474;
+	padding-left: 17px;
+	}
+
+button{
+	background-color: #f63c3c;
+	width: 120px;
+	height: 50px;
+	border-style: none;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 30px;
+	vertical-align: top;
+}
+
+
+
+form{
+	margin-bottom: 38px;
+}
+
+.twitter h3{
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.twitter p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 21px;
+	margin-left: 42px;
+	width: 265px;
+}
+
+.twitter time{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #828182;
+	margin-left: 42px;
+}
+
+aside i{
+	margin-right: 22px;
+}
+
+.footer{
+	margin-top: 147px;
+	padding-bottom: 30px;
+}
+.footer small{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #828183 ;
+    float:left;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #dcd7d5;
+}
+
+.footer ul{
+    float: right;
+}
+
+.footer li{
+    display: inline-block;
+}
+
+.footer ul li a {
+    margin-right: 21px;
+    color: #90908f ;
+    margin-bottom: 31px;
+    font-size: 13px;
+}
+
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+
+
+
+
+
+
+/*footer{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: #838283;
+	margin-top: 147px;
+}
+
+footer small a{
+	color:#dcd7d5;
+	text-decoration: none;
+}
+
+footer ul li a{
+	display: inline;
+	color: #838283;
+	font-size: 13px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	text-decoration: none;
+}
+
+
+
+
+*/
